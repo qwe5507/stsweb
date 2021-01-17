@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mybatis-spring="http://mybatis.org/schema/mybatis-spring"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://mybatis.org/schema/mybatis-spring http://mybatis.org/schema/mybatis-spring-1.2.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.1.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.3.xsd">
+
+	<!-- Root Context: defines shared resources visible to all other web components -->
+	<bean id="dataSource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"></property>
+		<property name="url" value="jdbc:oracle:thin:@192.168.0.56:1521:orcl"></property>
+		<property name="username" value="vitamin"></property>
+		<property name="password" value="1234"></property>
+	</bean>
+
+	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<property name="mapperLocations" value="classpath:trans/mybatis/*.xml"></property>
+	</bean>
+
+	<bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate" destroy-method="clearCache">
+		<constructor-arg name="sqlSessionFactory" ref="sqlSessionFactory"></constructor-arg>
+	</bean>
+
+
+	<context:component-scan base-package="trans.scan.dao" />
+
+	<!-- ##################################################### -->
+	<!-- ###### Transaction ###### -->
+<!-- 	서블릿컨텍스트는 루트컨텍스트의 하위 컨텍스트로 서블릿컨텍스트가 루트컨텍스트를 상속하고있는것과 비슷하다.-->
+<!-- 		이곳에 tx:애노테이션 드리븐설정을하고 트랜잭션이위치한 dao를 스캔하엿고 서블릿컨텍스트의 컴포넌트 스캔의 범위가  -->
+<!-- 		dao를 또 중복할경우 오버라이딩개념으로 서블릿컨텍스트의 dao가 사용된다 여기서 서블릿컨텍스트의 dao는 tx 설정이되지않은 bean이기때문에  -->
+<!-- 		트랜잭션이 적용되지 않는다.  -->
+	<bean id="transactionManager"
+		class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="dataSource"></property>
+	</bean>	
+	
+	<tx:annotation-driven transaction-manager="transactionManager"/>
+	
+	
+	
+</beans>
+
+

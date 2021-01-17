@@ -1,0 +1,61 @@
+
+12월 22, 2020 09:29:54.432 NEW SESSION
+12월 22, 2020 09:29:54.432 [7944:2880:1222/092954.431:ERROR:device_event_log_impl.cc(211)] [09:29:54.430] Bluetooth: bluetooth_adapter_winrt.cc:1073 Getting Default Adapter failed.
+12월 22, 2020 09:39:44.97 [1222/093944.095:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+12월 22, 2020 10:47:48.71 [7944:2880:1222/104748.071:ERROR:device_event_log_impl.cc(211)] [10:47:48.063] USB: usb_service_win.cc:258 Failed to get device driver name: 요소가 없습니다. (0x490)
+
+12월 25, 2020 13:43:02.90 NEW SESSION
+12월 25, 2020 13:43:02.90 [7312:16608:1225/134302.089:ERROR:device_event_log_impl.cc(211)] [13:43:02.088] Bluetooth: bluetooth_adapter_winrt.cc:1073 Getting Default Adapter failed.
+12월 25, 2020 13:52:51.893 [1225/135251.893:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+12월 25, 2020 14:20:20.745 [7312:16608:1225/142020.745:ERROR:device_event_log_impl.cc(211)] [14:20:20.746] USB: usb_service_win.cc:258 Failed to get device driver name: 요소가 없습니다. (0x490)
+12월 25, 2020 16:09:33.364 [7312:16608:1225/160933.364:ERROR:device_event_log_impl.cc(211)] [16:09:33.363] Bluetooth: bluetooth_adapter_winrt.cc:1073 Getting Default Adapter failed.
+
+12월 27, 2020 22:59:30.111 NEW SESSION
+12월 27, 2020 22:59:30.111 [9288:14044:1227/225930.110:ERROR:device_event_log_impl.cc(211)] [22:59:30.110] Bluetooth: bluetooth_adapter_winrt.cc:1073 Getting Default Adapter failed.
+12월 27, 2020 23:09:25.808 [1227/230925.806:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+
+12월 29, 2020 10:12:34.360 NEW SESSION
+12월 29, 2020 10:12:34.360 [10496:15092:1229/101234.359:ERROR:device_event_log_impl.cc(211)] [10:12:34.359] Bluetooth: bluetooth_adapter_winrt.cc:1073 Getting Default Adapter failed.
+12월 29, 2020 10:14:24.676 [6464:7164:1229/101424.675:ERROR:device_event_log_impl.cc(211)] [10:14:24.675] Bluetooth: bluetooth_adapter_winrt.cc:1073 Getting Default Adapter failed.
+12월 29, 2020 10:24:15.463 [1229/102415.460:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+12월 29, 2020 13:04:45.685 [6464:7164:1229/130445.685:ERROR:device_event_log_impl.cc(211)] [13:04:45.685] USB: usb_service_win.cc:258 Failed to get device driver name: 요소가 없습니다. (0x490)
+12월 29, 2020 16:48:50.413 [15740:13168:1229/164850.413:ERROR:device_event_log_impl.cc(211)] [16:48:50.414] Bluetooth: bluetooth_adapter_winrt.cc:1073 Getting Default Adapter failed.
+12월 29, 2020 16:58:40.72 [1229/165840.070:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+12월 29, 2020 18:16:18.674 [5596:5716:1229/181618.674:ERROR:device_event_log_impl.cc(211)] [18:16:18.673] Bluetooth: bluetooth_adapter_winrt.cc:1073 Getting Default Adapter failed.
+12월 29, 2020 18:26:05.387 [1229/182605.385:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+12월 29, 2020 18:42:26.308 [5596:5716:1229/184226.308:ERROR:device_event_log_impl.cc(211)] [18:42:26.298] USB: usb_service_win.cc:258 Failed to get device driver name: 요소가 없습니다. (0x490)
+12월 29, 2020 20:16:36.513 [5596:5716:1229/201636.513:ERROR:CONSOLE(0)] "TypeError: Cannot read property 'isAnonymousInlineStyleSheet' of null", source:  (0)
+12월 29, 2020 21:24:05.433 [5596:5716:1229/212405.433:ERROR:CONSOLE(0)] "TypeError: Cannot read property 'isAnonymousInlineStyleSheet' of null", source:  (0)
+12월 30, 2020 03:56:40.483 [5596:5716:1230/035640.483:ERROR:CONSOLE(0)] "TypeError: Cannot read property 'isAnonymousInlineStyleSheet' of null", source:  (0)
+12월 30, 2020 03:57:21.491 [5596:5716:1230/035721.491:ERROR:CONSOLE(0)] "TypeError: Cannot read property 'isAnonymousInlineStyleSheet' of null", source:  (0)
+12월 30, 2020 09:02:17.601 [14412:8940:1230/090217.601:ERROR:device_event_log_impl.cc(211)] [09:02:17.601] Bluetooth: bluetooth_adapter_winrt.cc:1073 Getting Default Adapter failed.
+12월 30, 2020 09:12:10.292 [1230/091210.291:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+12월 30, 2020 10:01:09.488 [14412:8940:1230/100109.487:ERROR:CONSOLE(0)] "TypeError: Cannot read property 'isAnonymousInlineStyleSheet' of null", source:  (0)
+12월 30, 2020 10:01:15.476 [14412:8940:1230/100115.476:ERROR:CONSOLE(0)] "TypeError: Cannot read property 'isAnonymousInlineStyleSheet' of null", source:  (0)
+12월 30, 2020 10:01:40.476 [14412:8940:1230/100140.476:ERROR:CONSOLE(0)] "TypeError: Cannot read property 'isAnonymousInlineStyleSheet' of null", source:  (0)
+12월 30, 2020 10:04:00.507 [14412:8940:1230/100400.507:ERROR:CONSOLE(0)] "TypeError: Cannot read property 'isAnonymousInlineStyleSheet' of null", source:  (0)
+12월 30, 2020 15:57:16.375 [14412:8940:1230/155716.375:ERROR:device_event_log_impl.cc(211)] [15:57:16.375] USB: usb_service_win.cc:258 Failed to get device driver name: 요소가 없습니다. (0x490)
+12월 30, 2020 16:37:02.563 [14412:8940:1230/163702.563:ERROR:CONSOLE(0)] "TypeError: Cannot read property 'isAnonymousInlineStyleSheet' of null", source:  (0)
+12월 30, 2020 16:37:03.526 [14412:8940:1230/163703.526:ERROR:CONSOLE(0)] "TypeError: Cannot read property 'isAnonymousInlineStyleSheet' of null", source:  (0)
+12월 30, 2020 16:37:04.490 [14412:8940:1230/163704.490:ERROR:CONSOLE(0)] "TypeError: Cannot read property 'isAnonymousInlineStyleSheet' of null", source:  (0)
+12월 30, 2020 16:37:45.486 [14412:8940:1230/163745.486:ERROR:CONSOLE(0)] "TypeError: Cannot read property 'isAnonymousInlineStyleSheet' of null", source:  (0)
+12월 30, 2020 16:40:02.551 [14412:8940:1230/164002.551:ERROR:CONSOLE(0)] "TypeError: Cannot read property 'isAnonymousInlineStyleSheet' of null", source:  (0)
+12월 30, 2020 17:17:53.705 [14412:6900:1230/171753.705:ERROR:mcs_client.cc(755)] Received close command, resetting connection.
+12월 30, 2020 20:14:20.525 [14412:8940:1230/201420.525:ERROR:CONSOLE(0)] "TypeError: Cannot read property 'isAnonymousInlineStyleSheet' of null", source:  (0)
+12월 30, 2020 20:14:21.535 [14412:8940:1230/201421.535:ERROR:CONSOLE(0)] "TypeError: Cannot read property 'isAnonymousInlineStyleSheet' of null", source:  (0)
+
+12월 30, 2020 22:45:02.46 NEW SESSION
+12월 30, 2020 22:45:02.46 [6544:4908:1230/224502.045:ERROR:device_event_log_impl.cc(211)] [22:45:02.044] Bluetooth: bluetooth_adapter_winrt.cc:1073 Getting Default Adapter failed.
+12월 30, 2020 22:54:51.144 [1230/225451.141:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+12월 31, 2020 09:22:19.354 [6544:4908:1231/092219.354:ERROR:device_event_log_impl.cc(211)] [09:22:19.354] USB: usb_service_win.cc:258 Failed to get device driver name: 요소가 없습니다. (0x490)
+12월 31, 2020 15:31:55.307 [20740:2276:1231/153155.307:ERROR:device_event_log_impl.cc(211)] [15:31:55.307] Bluetooth: bluetooth_adapter_winrt.cc:1073 Getting Default Adapter failed.
+12월 31, 2020 15:32:29.318 [6396:12688:1231/153229.318:ERROR:device_event_log_impl.cc(211)] [15:32:29.317] Bluetooth: bluetooth_adapter_winrt.cc:1073 Getting Default Adapter failed.
+12월 31, 2020 15:42:20.62 [1231/154220.061:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+12월 31, 2020 17:45:02.818 [6396:12688:1231/174502.818:ERROR:device_event_log_impl.cc(211)] [17:45:02.379] USB: usb_service_win.cc:258 Failed to get device driver name: 요소가 없습니다. (0x490)
+
+1월 02, 2021 13:12:25.395 NEW SESSION
+1월 02, 2021 13:12:25.395 [8372:5592:0102/131225.394:ERROR:device_event_log_impl.cc(211)] [13:12:25.394] Bluetooth: bluetooth_adapter_winrt.cc:1073 Getting Default Adapter failed.
+1월 02, 2021 13:22:17.35 [0102/132217.034:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+
+1월 13, 2021 21:48:26.359 NEW SESSION
+1월 13, 2021 21:48:26.359 [2920:2872:0113/214826.357:ERROR:device_event_log_impl.cc(211)] [21:48:26.357] Bluetooth: bluetooth_adapter_winrt.cc:1073 Getting Default Adapter failed.

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="product">
+
+<select id="categoryget" parameterType="string" resultType="string">
+<!-- SELECT *  -->
+<!-- FROM USERTABLE  -->
+<!-- WHERE u_id = #{u_id} AND u_pass = #{u_pass} -->
+select ca_smallcate from category where ca_largecate = #{largecate}
+</select>
+
+<insert id="insertproduct" parameterType="product">
+    <selectKey resultType="java.lang.String" keyProperty="p_num" order="BEFORE">
+        SELECT SEQ_p_num_product.nextval FROM DUAL
+    </selectKey>
+
+INSERT INTO product(p_num,p_name,p_costprice,p_discountrate,p_sellprice,p_postdate,p_content,p_stock,p_mainimage,ca_smallcate)
+ VALUES (#{p_num},#{p_name},#{p_costprice},#{p_discountrate},#{p_sellprice},sysdate,#{p_content},#{p_stock},#{p_mainimage},#{ca_smallcate})
+</insert>
+
+
+<insert id="insertsubimage" parameterType="hashmap" >
+
+insert into img(i_num,i_imgpath,p_num)
+select SEQ_i_num_img.nextval, A.* from(
+<foreach item="item" collection="list" separator="UNION ALL " >
+   select #{item} as i_imgpath,
+          #{vo.p_num} as p_num
+   from dual
+  </foreach>) A
+
+<!-- <foreach collection = "list" item="item" index="index" separator=";" >  -->
+<!-- insert into img(i_num,i_imgpath,p_num) values (SEQ_i_num_img.nextval,#{item},'1003') -->
+<!-- </foreach> -->
+
+<!-- insert into img(i_num,i_imgpath,p_num) values (SEQ_i_num_img.nextval,'존나화난다.',#{vo.p_num}); -->
+</insert>
+
+<insert id="insertproductoption" parameterType="list">
+<!-- <foreach item="list" collection="list" separator=" ; " > -->
+<!-- insert into productOptions (po_optionnum,p_num,po_optionname,po_optionstock,po_addprice) values(SEQ_po_optionNum_productOp.nextval,#{list.p_num},#{list.po_optionname},#{list.po_optionstock},#{list.po_addprice}) -->
+<!-- </foreach>) -->
+
+insert into productOptions(po_optionnum,p_num,po_optionname,po_optionstock,po_addprice)
+select SEQ_po_optionNum_productOp.nextval, A.* from(
+<foreach item="list" collection="list" index = "index" separator="UNION ALL " >
+   select #{list.p_num} as p_num,
+          #{list.po_optionname} as po_optionname,
+          #{list.po_optionstock} as po_optionstock,
+          #{list.po_addprice} as po_addprice
+   from dual
+  </foreach>) A
+  
+</insert>
+
+
+
+</mapper>

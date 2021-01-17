@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jst.jsp.ui.internal.wizard.NewJSPWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.wst.web.ui"/>
+		</list>
+	</section>
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.jst.servlet.ui.internal.wizard.WebComponentExportWizard"/>
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.egit.ui.internal.clone.GitCloneWizard"/>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.wst.web.ui"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.egit.ui.internal.clone.gitclonecategory"/>
+		</list>
+	</section>
+	<section name="ZipFileExportWizard">
+		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
+		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\kosmo_11\OneDrive\바탕 화면\트랜잭션 된것 .zip"/>
+			<item value="C:\Users\kosmo_11\OneDrive\바탕 화면\비타민 백업\비타민_v10_발표본.zip"/>
+			<item value="C:\Users\kosmo_11\OneDrive\바탕 화면\비타민 백업\비타민_v9.zip"/>
+			<item value="C:\Users\kosmo_11\OneDrive\바탕 화면\비타민 백업\비타민_v8.zip"/>
+			<item value="C:\Users\kosmo_11\OneDrive\바탕 화면\비타민 백업\비타민_v7.zip"/>
+			<item value="C:\Users\kosmo_11\OneDrive\바탕 화면\비타민 백업\detail.js"/>
+			<item value="C:\Users\kosmo_11\OneDrive\바탕 화면\비타민 백업\비타민_v6.zip"/>
+			<item value="C:\Users\kosmo_11\OneDrive\바탕 화면\비타민 백업\비타민_v5.zip"/>
+			<item value="C:\Users\kosmo_11\OneDrive\바탕 화면\비타민 백업\비타민_v4.zip"/>
+			<item value="C:\Users\kosmo_11\OneDrive\바탕 화면\비타민 백업\ProductVO.zip"/>
+			<item value="C:\Users\kosmo_11\OneDrive\바탕 화면\비타민 백업\비타민_v3.zip"/>
+			<item value="C:\Users\kosmo_11\OneDrive\바탕 화면\비타민 백업\비타민_v2.zip"/>
+			<item value="C:\Users\kosmo_11\OneDrive\바탕 화면\basket.zip"/>
+			<item value="C:\Users\kosmo_11\OneDrive\바탕 화면\basket_css.zip"/>
+			<item value="C:\Users\kosmo_11\OneDrive\바탕 화면\비타민 백업\비타민_v1.zip"/>
+			<item value="C:\Users\kosmo_11\OneDrive\바탕 화면\hWebBoard1_채은.zip"/>
+			<item value="C:\Users\kosmo_11\OneDrive\바탕 화면\hWebBoard2_채은.zip"/>
+			<item value="C:\Users\kosmo_11\OneDrive\바탕 화면\기용이.zip"/>
+		</list>
+	</section>
+	<section name="ZipFileImportWizard">
+		<item key="WizardZipFileResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
+		<list key="WizardZipFileResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\Users\kosmo_11\OneDrive\바탕 화면\비타민 백업\비타민_v5.zip"/>
+		</list>
+	</section>
+	<section name="FileSystemImportWizard">
+		<item key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
+		<item key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID" value="false"/>
+		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\Users\kosmo_11\Downloads\iTransaction"/>
+		</list>
+	</section>
+</section>

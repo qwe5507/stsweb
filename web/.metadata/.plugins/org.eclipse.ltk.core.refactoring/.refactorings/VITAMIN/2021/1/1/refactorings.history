@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;VITAMIN/src/main/webapp/WEB-INF/views/admin_view/test.jsp&apos; to &apos;testtest.jsp&apos;" description="Rename resource &apos;test.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/WEB-INF/views/admin_view/test.jsp" name="testtest.jsp" stamp="1609573939073" updateReferences="true"/>
+</session>
